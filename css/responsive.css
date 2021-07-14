@@ -1,0 +1,149 @@
+/* ------------------------------------------------------------------- 1024px */
+@media only screen and (max-width: 1200px) {
+
+    /* Upcoming Match Section (Extra) */
+
+    .dhaka_club, .match_time, .rajshahi_club{
+        width: 30%;
+        height: auto;
+    }
+}
+/* ------------------------------------------------------------------- 1024px */
+@media only screen and (max-width: 1024px) {
+
+    /* Banner Section  */
+    
+    .banner_content h1{
+        font-size: 5.5rem;
+    }
+
+     /* Match highlight  */
+
+    .match_content h2{
+        font-size: 4rem;
+    }
+
+    /* News Section (Extra)  */
+
+    .all_news{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Upcoming Match Section (Extra) */
+
+    .dhaka_club, .match_time, .rajshahi_club{
+        width: 45%;
+        height: auto;
+    }
+  }
+/* ------------------------------------------------------------------- 980px */
+@media only screen and (max-width: 980px) {
+
+    /* Banner Section  */
+    
+    .banner_content h1{
+        font-size: 3.5rem;
+    }
+
+    /* Players Blogs  */
+
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Match highlight  */
+
+    .match_content h2{
+        font-size: 3rem;
+    }
+}
+/* ------------------------------------------------------------------- 768px */
+@media only screen and (max-width: 768px) {
+
+    /* Latest News Section (Extra) */
+
+    .news_info{
+        margin-left: 0rem;
+    }
+    .left .news{
+        flex-direction: column;
+        
+    }
+
+     /* Upcoming Match Section (Extra) */
+    .upcoming{
+        flex-direction: column;
+    }
+    .dhaka_club, .match_time, .rajshahi_club{
+        width: 60%;
+        height: auto;
+    }
+    .match_time{
+        margin: 3rem 0;
+    }
+    .match_time h3{
+        font-size: 1.6rem;
+    }
+    .match_time h2{
+        font-size: 2rem;
+    }
+    .match_time h4{
+        font-size: 1rem;
+    }
+}
+/* -------------------------------------------------------------------576px */
+@media only screen and (max-width: 576px) {
+
+    /* banner section*/
+
+    .banner{
+        flex-direction: column;
+        padding: 0;
+    }
+    .banner_content, .banner_img, .match_content, .match_img{
+        width: 100%;
+    }
+    .banner_img{
+        margin-top: 3rem;
+    }
+    .btn{
+        width: 17rem;
+        margin:auto;
+        margin-top: 2.4rem;
+        margin-bottom: 3rem;
+    }
+    
+     /* Player Blog */
+
+     .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Match highlight  */
+
+    .match{
+        flex-direction: column;
+    }
+
+     /* Latest News Section (Extra) */
+
+    .section_title{
+        font-size: 2rem;
+    }
+
+    /* Upcoming Match Section (Extra) */
+    #upcoming_match .section_title{
+    
+        font-size: 1.6rem;
+    }
+
+    /* Footer Section  */
+
+    .footer img{
+        width: 30rem;
+    }
+    footer span{
+        font-size: 1.4rem;
+    }
+  
+  }
